@@ -23,6 +23,11 @@ class Ticket
   def price
     5.50
   end
+
+  def available?
+    false
+  end
+
 end
 
 ticket = Ticket.new
